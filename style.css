@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.audio-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.audio-list li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.audio-list li:last-child {
+    border-bottom: none;
+}
+
+.audio-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.download-button {
+    background-color: green;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:30px;
+}
+
+.download-button:hover {
+    background-color: red;
+    #444;
+}
+
+audio {
+    width: 90%;
+    margin-bottom: 20px;
+}
